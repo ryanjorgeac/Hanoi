@@ -5,7 +5,7 @@
 #pin3 --> destination pin
 
 def move(pin1,pin3):
-  print("Move from {} to {}".format(pin1,pin3))
+  print(pin1, "->", pin3)
 
 def hanoi(n,pin1,pin2,pin3):
     if n==0:
@@ -16,4 +16,4 @@ def hanoi(n,pin1,pin2,pin3):
       hanoi(n-1,pin2,pin1,pin3)
 
 quantPin = int(input("How many disks do you want to solve?"))
-hanoi(quantPin,"A","B","C")
+hanoi(quantPin,1,2,3)
