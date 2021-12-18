@@ -5,7 +5,7 @@
 #pin3 --> destination pin
 
 def move(pin1,pin3):
-  print(pin1, "->", pin3)
+  print("{}->{}".format(pin1,pin3))
 
 def hanoi(n,pin1,pin2,pin3):
     if n==0:
