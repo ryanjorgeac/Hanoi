@@ -1,3 +1,5 @@
+#!/usr/bin/python
+
 #pin1 --> start pin
 #pin2 --> auxiliary pin
 #pin3 --> destination pin
